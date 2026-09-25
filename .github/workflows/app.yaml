@@ -20,6 +20,9 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
+env:
+  VITE_APP_NAME: "Me Leva - Frontend"
+
 jobs:
   deploy:
     environment:
