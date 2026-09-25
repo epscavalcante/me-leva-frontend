@@ -20,9 +20,6 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
-env:
-  VITE_BASE_URL: "/me-leva-frontend/"
-
 jobs:
   deploy:
     environment:
